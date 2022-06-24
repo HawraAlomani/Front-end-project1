@@ -36,6 +36,9 @@ body {
 .sidebar a:hover {
   color: #f7f7f6;
 }
+.sidebar .active {
+  font-weight: bold;
+}
 
 .content {
   margin-left: 200px;
@@ -143,4 +146,37 @@ body {
   background-color: rgba(255, 255, 255, 0.2);
   padding: 10px;
   text-align: left;
+}
+
+.clipboard {
+  color: #22232a;
+  display: block;
+  float: right;
+}
+.clipboard:hover {
+  color: #bebab4;
+}
+
+.heart {
+  display: block;
+  float: right;
+  color: #bebab4;
+}
+.heart:hover {
+  height: 19px;
+  width: 19px;
+  display: block;
+  float: right;
+  color: rgb(163, 17, 49);
+}
+.alert-copy {
+  margin-top: 10px;
+  font-style: italic;
+  font-family: "Lucida Sans Regular";
+  font-weight: bold;
+  color: #22232a47;
+  text-shadow: 1px 1px 3px #bebab4;
+}
+.alert-copy:hover {
+  color: #22232a;
 }
