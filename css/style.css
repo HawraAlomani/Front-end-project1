@@ -1,0 +1,65 @@
+body {
+  background-image: url("/images/background4.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #f7f7f6;
+}
+
+#logo {
+  width: 200px;
+  display: block;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #bebab4;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  font-family: "Lucida Sans Regular";
+}
+.sidebar a:hover {
+  color: #f7f7f6;
+}
+
+.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 650px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {
+    float: left;
+  }
+  .content {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
