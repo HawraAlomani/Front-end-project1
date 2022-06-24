@@ -85,23 +85,19 @@ body {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 200px 200px;
-  grid-gap: 30px;
-  height: 600px;
-  border: 10px solid black;
+  grid-template-rows: auto auto auto;
+  grid-gap: 1px;
+  height: auto;
 }
 .grid-container2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 200px 200px;
-  grid-gap: 30px;
-  height: 600px;
-  border: 10px solid black;
+  grid-template-rows: auto auto auto;
+  grid-gap: 1px;
+  height: auto;
 }
 
 .item {
-  background-color: gray;
-  border: 4px solid white;
   padding: 20px;
 }
 
@@ -134,4 +130,17 @@ body {
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 50px;
+}
+
+.DesignCard {
+  margin-right: auto;
+  margin-left: auto;
+  width: auto;
+  box-shadow: 0 1px 25px rgba(129, 124, 124, 0.4);
+  height: auto;
+  border-radius: 1px;
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  text-align: left;
 }
