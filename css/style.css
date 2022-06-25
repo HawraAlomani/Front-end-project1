@@ -7,6 +7,21 @@ body {
   background-color: #f7f7f6;
   font-family: "Franklin Gothic Medium";
 }
+#playIcon{
+  position: static;
+  margin-left: 20px;
+  margin-right: auto;
+  padding-top: 10px;
+  height: 40px;
+  cursor: pointer;
+}
+#soundIcon{
+  position: static;
+  margin-left: 20px;
+  margin-right: auto;
+  padding-top: 10px;
+  height: 60px;
+}
 
 #logo {
   width: 200px;
