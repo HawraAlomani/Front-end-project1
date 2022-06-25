@@ -20,10 +20,10 @@
 
     <link rel="stylesheet" href="/css/style.css" />
   </head>
-  <body style="background-image: url('/images/background3.png'); overflow: hidden;">
+  <body style="background-image: url('/images/background3.png')">
     <!-- Sidebar -->
     <div class="sidebar">
-      <img src="/images/logo2.png" id="logo"/>
+      <img src="/images/logo2.png" id="logo" />
       <hr />
       <a href="index.html">Home</a>
       <a class="active" href="eng-q.html">English Quotes</a>
@@ -36,30 +36,33 @@
 
     <div class="content">
       <div class="famous-header">
-        <img src="/images/eng-quotes.png" style="padding-top: 200px;" />
+        <img src="/images/eng-quotes.png" style="padding-top: 200px" />
       </div>
       <!-- Cards -->
+      <!-- Card 1-->
       <div class="item card1">
         <div class="DesignCard">
           <blockquote class="blockquote mb-0 card-body">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              class="clipboard"
-              viewBox="0 0 16 16"
-            >
-              <path
-                d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"
-              />
-              <path
-                d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"
-              />
-            </svg>
-            <p class="quote">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              posuere erat a ante.
+            <button onclick="copyFunction('p1')">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="clipboard"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"
+                />
+                <path
+                  d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"
+                />
+              </svg>
+            </button>
+            <p id="p1">
+              If life were predictable it would cease to be life, and be without
+              flavor.
             </p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -76,14 +79,266 @@
             </svg>
             <footer class="blockquote-footer">
               <small class="text-muted">
-                Someone famous in
-                <cite title="Source Title">Source Title</cite>
+                Eleanor Roosevelt
+                <!-- <cite title="Source Title">Source Title</cite> -->
               </small>
             </footer>
+            <script src="/js/copyQuotes.js"></script>
           </blockquote>
         </div>
       </div>
-      
+      <!-- End Card 1-->
+
+      <!-- Card 2-->
+      <div class="item card1">
+        <div class="DesignCard">
+          <blockquote class="blockquote mb-0 card-body">
+            <button onclick="copyFunction('p2')">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="clipboard"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"
+                />
+                <path
+                  d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"
+                />
+              </svg>
+            </button>
+            <p id="p2">
+              Tell me and I forget. Teach me and I remember. Involve me and I
+              learn.
+            </p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="heart"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"
+              />
+            </svg>
+            <footer class="blockquote-footer">
+              <small class="text-muted">
+                Benjamin Franklin
+                <!-- <cite title="Source Title">Source Title</cite> -->
+              </small>
+            </footer>
+            <script src="/js/copyQuotes.js"></script>
+          </blockquote>
+        </div>
+      </div>
+      <!-- End Card 2-->
+
+      <!-- Card 3-->
+      <div class="item card1">
+        <div class="DesignCard">
+          <blockquote class="blockquote mb-0 card-body">
+            <button onclick="copyFunction('p3')">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="clipboard"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"
+                />
+                <path
+                  d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"
+                />
+              </svg>
+            </button>
+            <p id="p3">
+              Don't judge each day by the harvest you reap but by the seeds that
+              you plant.
+            </p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="heart"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"
+              />
+            </svg>
+            <footer class="blockquote-footer">
+              <small class="text-muted">
+                Robert Louis Stevenson
+                <!-- <cite title="Source Title">Source Title</cite> -->
+              </small>
+            </footer>
+            <script src="/js/copyQuotes.js"></script>
+          </blockquote>
+        </div>
+      </div>
+      <!-- End Card 3-->
+
+      <!-- Card 4-->
+      <div class="item card1">
+        <div class="DesignCard">
+          <blockquote class="blockquote mb-0 card-body">
+            <button onclick="copyFunction('p4')">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="clipboard"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"
+                />
+                <path
+                  d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"
+                />
+              </svg>
+            </button>
+            <p id="p4">
+              The future belongs to those who believe in the beauty of their
+              dreams.
+            </p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="heart"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"
+              />
+            </svg>
+            <footer class="blockquote-footer">
+              <small class="text-muted">
+                Eleanor Roosevelt
+                <!-- <cite title="Source Title">Source Title</cite> -->
+              </small>
+            </footer>
+            <script src="/js/copyQuotes.js"></script>
+          </blockquote>
+        </div>
+      </div>
+      <!-- End Card 4-->
+
+      <!-- Card 5-->
+      <div class="item card1">
+        <div class="DesignCard">
+          <blockquote class="blockquote mb-0 card-body">
+            <button onclick="copyFunction('p5')">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="clipboard"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"
+                />
+                <path
+                  d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"
+                />
+              </svg>
+            </button>
+            <p id="p5">
+              The greatest glory in living lies not in never falling, but in
+              rising every time we fall.
+            </p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="heart"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"
+              />
+            </svg>
+            <footer class="blockquote-footer">
+              <small class="text-muted">
+                Nelson Mandela
+                <!-- <cite title="Source Title">Source Title</cite> -->
+              </small>
+            </footer>
+            <script src="/js/copyQuotes.js"></script>
+          </blockquote>
+        </div>
+      </div>
+      <!-- End Card 5-->
+
+      <!-- Card 6-->
+      <div class="item card1">
+        <div class="DesignCard">
+          <blockquote class="blockquote mb-0 card-body">
+            <button onclick="copyFunction('p6')">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="clipboard"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"
+                />
+                <path
+                  d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"
+                />
+              </svg>
+            </button>
+            <p id="p6">
+              Many of life's failures are people who did not realize how close
+              they were to success when they gave up.
+            </p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="heart"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"
+              />
+            </svg>
+            <footer class="blockquote-footer">
+              <small class="text-muted">
+                Thomas A. Edison
+                <!-- <cite title="Source Title">Source Title</cite> -->
+              </small>
+            </footer>
+            <script src="/js/copyQuotes.js"></script>
+          </blockquote>
+        </div>
+      </div>
+      <!-- End Card 6-->
+
       <!-- EndCards -->
     </div>
   </body>
