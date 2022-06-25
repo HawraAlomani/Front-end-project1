@@ -15,6 +15,15 @@ body {
   margin-right: auto;
   margin-left: auto;
   padding: 10px;
+  animation: showLogo 2s ease-out;
+}
+@keyframes showLogo {
+  0% {
+    width: 170px;
+  }
+  100% {
+    width: 200px;
+  }
 }
 
 .sidebar {
@@ -79,10 +88,15 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 550px;
+    width: 500px;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 50px;
+    animation: movingHead 1s;
+  }
+
+  .content {
+    margin-left: 0;
   }
 }
 
@@ -175,12 +189,21 @@ body {
   font-style: italic;
   font-family: "Lucida Sans Regular";
   font-weight: bold;
-  color: #22232a47;
   text-shadow: 1px 1px 3px #bebab4;
+  animation: animateColor 3s linear infinite;
 }
-.alert-copy:hover {
-  color: #22232a;
+@keyframes animateColor {
+  0% {
+    color: #bebab4;
+  }
+  50% {
+    color: #22232a;
+  }
+  100% {
+    color: #bebab4;
+  }
 }
+
 #register {
   padding: 50px;
   text-align: center;
