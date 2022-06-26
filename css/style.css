@@ -7,7 +7,7 @@ body {
   background-color: #f7f7f6;
   font-family: "Franklin Gothic Medium";
 }
-#playIcon{
+#playIcon {
   position: static;
   margin-left: 20px;
   margin-right: auto;
@@ -15,7 +15,7 @@ body {
   height: 40px;
   cursor: pointer;
 }
-#soundIcon{
+#soundIcon {
   position: static;
   margin-left: 20px;
   margin-right: auto;
