@@ -16,3 +16,5 @@ Features:
 Future plans:
 - using localStorage to add quotes to favorite page.
 - make the music play continuously while moving between other pages.
+
+Visit the site: 
