@@ -19,4 +19,4 @@ Future plans:
 
 Tools: HTML, CSS, JS, Photoshop, Netlify.
 
-Visit the site: 
+Visit the site: https://the-word-echo.netlify.app/
